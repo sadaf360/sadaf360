@@ -39,4 +39,7 @@ Google Search Console, GA4, Semrush, Ahrefs, Screaming Frog, PageSpeed Insights,
 [seo-audit-checklist](https://github.com/sadaf360/seo-audit-checklist) | [keyword-research-template](https://github.com/sadaf360/keyword-research-template) | [schema-markup-snippets](https://github.com/sadaf360/schema-markup-snippets) | [ga4-setup-checklist](https://github.com/sadaf360/ga4-setup-checklist) | [content-brief-template](https://github.com/sadaf360/content-brief-template)
 
 ## Let's work together
-Free SEO review for your website: [sadafshehzadi360@gmail.com](mailto:sadafshehzadi360@gmail.com)
+Free SEO review for your website.
+
+- Email: [sadafshehzadi360@gmail.com](mailto:sadafshehzadi360@gmail.com)
+- Phone: +92 302 8303210 (Lahore, Pakistan)
