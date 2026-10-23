@@ -1,75 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Sadaf Liaquat Ali - SEO Specialist">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-label="Sadaf Liaquat Ali - SEO Specialist">
   <defs>
-    <!-- Rich multi-stop gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4c1d95"/>
-      <stop offset="35%" stop-color="#6d28d9"/>
-      <stop offset="70%" stop-color="#be185d"/>
-      <stop offset="100%" stop-color="#9d174d"/>
-    </linearGradient>
-
-    <!-- Soft ambient lights -->
-    <radialGradient id="light1" cx="90%" cy="10%" r="50%">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="light2" cx="5%" cy="90%" r="45%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="light3" cx="70%" cy="80%" r="35%">
-      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Text shadow -->
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
-    </filter>
-
-    <!-- Glass effect for pills -->
-    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#9333ea"/>
     </linearGradient>
   </defs>
 
-  <!-- Main background -->
-  <rect width="1200" height="340" rx="32" fill="url(#bg)"/>
-  <rect width="1200" height="340" rx="32" fill="url(#light1)"/>
-  <rect width="1200" height="340" rx="32" fill="url(#light2)"/>
-  <rect width="1200" height="340" rx="32" fill="url(#light3)"/>
-
-  <!-- Decorative floating circles -->
-  <circle cx="1120" cy="55" r="95" fill="#fbbf24" opacity="0.15"/>
-  <circle cx="1040" cy="280" r="75" fill="#22d3ee" opacity="0.18"/>
-  <circle cx="1160" cy="190" r="45" fill="#ffffff" opacity="0.1"/>
-  <circle cx="980" cy="40" r="28" fill="#f472b6" opacity="0.2"/>
-
-  <!-- Subtle top shine line -->
-  <rect x="40" y="18" width="1120" height="2" rx="1" fill="#ffffff" opacity="0.15"/>
+  <!-- Clean background -->
+  <rect width="1200" height="280" rx="20" fill="url(#bg)"/>
 
   <!-- Name -->
-  <text x="55" y="115" font-family="Inter,Segoe UI,system-ui,Arial,sans-serif" font-weight="800" font-size="72" fill="#ffffff" filter="url(#shadow)">Sadaf Liaquat Ali</text>
+  <text x="60" y="110" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" font-size="56" fill="#ffffff">Sadaf Liaquat Ali</text>
 
   <!-- Tagline -->
-  <text x="55" y="165" font-family="Inter,Segoe UI,system-ui,Arial,sans-serif" font-weight="500" font-size="26" fill="#fce7f3" opacity="0.95">SEO Specialist  •  Helping businesses get found on Google</text>
+  <text x="60" y="155" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="400" font-size="24" fill="#e0e7ff">SEO Specialist  ·  Helping businesses get found on Google</text>
 
-  <!-- Stats Pills (glass style) -->
-  <g font-family="Inter,Segoe UI,system-ui,Arial,sans-serif" font-weight="600" font-size="17">
-    <!-- Pill 1 -->
-    <rect x="55" y="220" width="200" height="46" rx="23" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="75" y="249" fill="#ffffff">✦  5+ Years in SEO</text>
-
-    <!-- Pill 2 -->
-    <rect x="275" y="220" width="320" height="46" rx="23" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="295" y="249" fill="#ffffff">↑  15.2K Clicks  •  Mattie Nottage</text>
-
-    <!-- Pill 3 -->
-    <rect x="615" y="220" width="340" height="46" rx="23" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1"/>
-    <text x="635" y="249" fill="#ffffff">◎  249K Impressions  •  E Movement</text>
-  </g>
-
-  <!-- Bottom subtle bar -->
-  <rect x="0" y="310" width="1200" height="30" rx="0" fill="#000000" opacity="0.12"/>
+  <!-- Simple stats line -->
+  <text x="60" y="220" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="500" font-size="18" fill="#c7d2fe">5+ Years Experience   ·   15.2K Clicks   ·   249K Impressions</text>
 </svg>
