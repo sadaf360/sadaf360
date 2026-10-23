@@ -1,20 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-label="Sadaf Liaquat Ali - SEO Specialist">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Sadaf Liaquat Ali - SEO Specialist">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4f46e5"/>
-      <stop offset="100%" stop-color="#9333ea"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#db2777"/>
     </linearGradient>
+    <linearGradient id="pill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
   </defs>
 
-  <!-- Clean background -->
-  <rect width="1200" height="280" rx="20" fill="url(#bg)"/>
+  <!-- Background -->
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+
+  <!-- Soft decorative circles -->
+  <circle cx="1100" cy="50" r="90" fill="#fbbf24" opacity="0.15"/>
+  <circle cx="1050" cy="250" r="60" fill="#22d3ee" opacity="0.15"/>
+  <circle cx="1150" cy="180" r="35" fill="#ffffff" opacity="0.1"/>
 
   <!-- Name -->
-  <text x="60" y="110" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" font-size="56" fill="#ffffff">Sadaf Liaquat Ali</text>
+  <text x="55" y="105" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800" font-size="58" fill="#ffffff" filter="url(#shadow)">Sadaf Liaquat Ali</text>
 
   <!-- Tagline -->
-  <text x="60" y="155" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="400" font-size="24" fill="#e0e7ff">SEO Specialist  ·  Helping businesses get found on Google</text>
+  <text x="55" y="150" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="500" font-size="23" fill="#fce7f3">SEO Specialist  ·  Helping businesses get found on Google</text>
 
-  <!-- Simple stats line -->
-  <text x="60" y="220" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="500" font-size="18" fill="#c7d2fe">5+ Years Experience   ·   15.2K Clicks   ·   249K Impressions</text>
+  <!-- Stats Pills -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600" font-size="16">
+    <rect x="55" y="195" width="185" height="40" rx="20" fill="url(#pill)"/>
+    <text x="75" y="221" fill="#ffffff">5+ Years in SEO</text>
+
+    <rect x="260" y="195" width="290" height="40" rx="20" fill="url(#pill)"/>
+    <text x="280" y="221" fill="#ffffff">15.2K Clicks · Mattie Nottage</text>
+
+    <rect x="570" y="195" width="310" height="40" rx="20" fill="url(#pill)"/>
+    <text x="590" y="221" fill="#ffffff">249K Impressions · E Movement</text>
+  </g>
 </svg>
