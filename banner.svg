@@ -1,42 +1,149 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Sadaf Liaquat Ali - SEO Specialist">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4338ca"/>
-      <stop offset="50%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#db2777"/>
-    </linearGradient>
-    <linearGradient id="pill" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1"/>
-    </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Sadaf Liaquat Ali - SEO Specialist. Technical SEO, GA4, GTM and server-side tracking.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090d1f"/><stop offset="0.6" stop-color="#140c33"/><stop offset="1" stop-color="#1d0b3a"/></linearGradient>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b7bff"/><stop offset="1" stop-color="#ff6fa5"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7c3aed" stop-opacity=".55"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+  <clipPath id="r"><rect width="1200" height="400" rx="26"/></clipPath>
+  <style>
+    text{font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .name{font-size:56px;font-weight:800;fill:#fff;letter-spacing:-1px}
+    .role{font-size:32px;font-weight:700}
+    .kw{font-size:17px;font-weight:600;fill:#c9d1ff}
+    .desc{font-size:18px;fill:#aab2d8}
+    .box{fill:#141a38;stroke:#2c3566;stroke-width:1.5}
+    .bl{font-size:15px;font-weight:600;fill:#e8ebff}
+    .hub{fill:#1a1650;stroke:#7c6cff;stroke-width:2}
+    .conn{fill:none;stroke:#4a55a8;stroke-width:2;stroke-opacity:.7}
+    .num{font-size:40px;font-weight:800}
+    .lab{font-size:14px;fill:#9aa3cc}
+  </style>
+  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff6fa5" stop-opacity=".45"/><stop offset="1" stop-color="#ff6fa5" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#r)">
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="930" cy="170" r="260" fill="url(#glow)"/>
+  <circle cx="90" cy="380" r="140" fill="#3b2bd9" fill-opacity=".18"/>
 
-  <!-- Background -->
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <text class="name" x="64" y="94">Sadaf Liaquat Ali</text>
+  <text class="role" x="66" y="142" fill="url(#title)">SEO Specialist</text>
+  <text class="kw" x="66" y="184">Technical SEO  •  Shopify SEO  •  GA4  •  GTM  •  Server-side Tracking</text>
+  <text class="desc" x="66" y="224">Helping businesses get found on Google and</text>
+  <text class="desc" x="66" y="250">measure what actually brings sales.</text>
+  <rect x="66" y="270" width="64" height="4" rx="2" fill="url(#title)"/>
 
-  <!-- Soft decorative circles -->
-  <circle cx="1100" cy="50" r="90" fill="#fbbf24" opacity="0.15"/>
-  <circle cx="1050" cy="250" r="60" fill="#22d3ee" opacity="0.15"/>
-  <circle cx="1150" cy="180" r="35" fill="#ffffff" opacity="0.1"/>
+<!-- SEO visuals + compact tracking strip -->
+  <g>
+    <!-- Google results card -->
+    <rect class="box" x="700" y="40" width="276" height="160" rx="18"/>
+    <rect x="716" y="54" width="244" height="28" rx="14" fill="#0e1330" stroke="#2c3566"/>
+    <circle cx="733" cy="68" r="5" fill="none" stroke="#9aa3cc" stroke-width="2"/><line x1="737" y1="72" x2="741" y2="76" stroke="#9aa3cc" stroke-width="2" stroke-linecap="round"/>
+    <text x="750" y="73" font-size="13" fill="#c9d1ff">technical seo audit</text>
 
-  <!-- Name -->
-  <text x="55" y="105" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800" font-size="58" fill="#ffffff" filter="url(#shadow)">Sadaf Liaquat Ali</text>
+    <rect x="716" y="92" width="244" height="30" rx="9" fill="#fff" fill-opacity=".08" stroke="#ffb547" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="734" cy="107" r="10" fill="#ff6fa5"/><text x="734" y="112" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">1</text>
+    <rect x="752" y="99" width="150" height="6" rx="3" fill="#8b7bff"/><rect x="752" y="110" width="190" height="4" rx="2" fill="#aab2d8" fill-opacity=".6"/>
 
-  <!-- Tagline -->
-  <text x="55" y="150" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="500" font-size="23" fill="#fce7f3">SEO Specialist  ·  Helping businesses get found on Google</text>
+    <rect x="716" y="128" width="244" height="28" rx="9" fill="#fff" fill-opacity=".05"/>
+    <circle cx="734" cy="142" r="9" fill="#3b4380"/><text x="734" y="146" text-anchor="middle" font-size="12" font-weight="700" fill="#c9d1ff">2</text>
+    <rect x="752" y="135" width="130" height="5" rx="2.5" fill="#55609f"/><rect x="752" y="145" width="170" height="4" rx="2" fill="#55609f" fill-opacity=".6"/>
 
-  <!-- Stats Pills -->
-  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600" font-size="16">
-    <rect x="55" y="195" width="185" height="40" rx="20" fill="url(#pill)"/>
-    <text x="75" y="221" fill="#ffffff">5+ Years in SEO</text>
+    <rect x="716" y="162" width="244" height="28" rx="9" fill="#fff" fill-opacity=".05"/>
+    <circle cx="734" cy="176" r="9" fill="#3b4380"/><text x="734" y="180" text-anchor="middle" font-size="12" font-weight="700" fill="#c9d1ff">3</text>
+    <rect x="752" y="169" width="110" height="5" rx="2.5" fill="#55609f"/><rect x="752" y="179" width="150" height="4" rx="2" fill="#55609f" fill-opacity=".6"/>
 
-    <rect x="260" y="195" width="290" height="40" rx="20" fill="url(#pill)"/>
-    <text x="280" y="221" fill="#ffffff">15.2K Clicks · Mattie Nottage</text>
+    <!-- clicks chart card -->
+    <rect class="box" x="990" y="40" width="160" height="160" rx="18"/>
+    <text x="1006" y="64" font-size="13" font-weight="700" fill="#e8ebff">Organic clicks</text>
+    <line x1="1006" y1="100" x2="1134" y2="100" stroke="#fff" stroke-opacity=".2"/>
+    <line x1="1006" y1="132" x2="1134" y2="132" stroke="#fff" stroke-opacity=".2"/>
+    <line x1="1006" y1="164" x2="1134" y2="164" stroke="#fff" stroke-opacity=".2"/>
+    <path d="M1006 162 L1030 154 L1052 158 L1074 138 L1096 120 L1116 98 L1134 82 L1134 164 L1006 164 Z" fill="url(#area)"/>
+    <path d="M1006 162 L1030 154 L1052 158 L1074 138 L1096 120 L1116 98 L1134 82" fill="none" stroke="#ff8fb8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1134" cy="82" r="7" fill="#ffb547"/>
+    <circle cx="1134" cy="82" r="7" fill="none" stroke="#ffb547" stroke-width="2"><animate attributeName="r" values="7;17" dur="2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".8;0" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="1006" y="188" font-size="11" fill="#9aa3cc">Mattie Nottage, 6 months</text>
 
-    <rect x="570" y="195" width="310" height="40" rx="20" fill="url(#pill)"/>
-    <text x="590" y="221" fill="#ffffff">249K Impressions · E Movement</text>
+    <!-- compact tracking strip -->
+    <rect class="box" x="700" y="214" width="450" height="72" rx="18"/>
+    <text x="716" y="236" font-size="12" font-weight="600" fill="#9aa3cc">Accurate tracking behind every result</text>
+    <path id="t1" d="M788 264 L808 264" stroke="#4a55a8" stroke-width="2"/>
+    <path id="t2" d="M926 264 L946 264" stroke="#4a55a8" stroke-width="2"/>
+    <path id="t3" d="M1040 264 L1060 264" stroke="#4a55a8" stroke-width="2"/>
+    <rect x="716" y="248" width="72" height="32" rx="10" fill="#1a1f45" stroke="#2c3566"/><text x="752" y="269" text-anchor="middle" font-size="14" font-weight="700" fill="#f9ab00">GA4</text>
+    <rect x="808" y="248" width="118" height="32" rx="10" fill="#1a1650" stroke="#7c6cff" stroke-width="1.5"/><text x="867" y="269" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">GTM server-side</text>
+    <rect x="946" y="248" width="94" height="32" rx="10" fill="#1a1f45" stroke="#2c3566"/><text x="993" y="269" text-anchor="middle" font-size="14" font-weight="700" fill="#669df6">BigQuery</text>
+    <rect x="1060" y="248" width="76" height="32" rx="10" fill="#1a1f45" stroke="#2c3566"/><text x="1098" y="269" text-anchor="middle" font-size="14" font-weight="700" fill="#a78bfa">Looker</text>
+    <g fill="#ff6fa5">
+      <circle r="3.5"><animateMotion dur="1.2s" repeatCount="indefinite" begin="0s"><mpath href="#t1"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="1.2s" repeatCount="indefinite" begin="0.4s"><mpath href="#t2"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="1.2s" repeatCount="indefinite" begin="0.8s"><mpath href="#t3"/></animateMotion></circle>
+    </g>
   </g>
+
+  
+  <!-- stats row -->
+  <line x1="64" y1="312" x2="1136" y2="312" stroke="#2c3566" stroke-width="1.5"/>
+  <text x="64" y="358" class="num" fill="#7dd3fc" opacity="1">0<set attributeName="opacity" to="0" begin="0.50s" dur="0.1s" fill="freeze"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">0<set attributeName="opacity" to="1" begin="0.72s" dur="0.22s"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">1<set attributeName="opacity" to="1" begin="0.94s" dur="0.22s"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">2<set attributeName="opacity" to="1" begin="1.16s" dur="0.22s"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">2<set attributeName="opacity" to="1" begin="1.38s" dur="0.22s"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">2<set attributeName="opacity" to="1" begin="1.60s" dur="0.22s"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">3<set attributeName="opacity" to="1" begin="1.82s" dur="0.22s"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">4<set attributeName="opacity" to="1" begin="2.04s" dur="0.22s"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">4<set attributeName="opacity" to="1" begin="2.26s" dur="0.22s"/></text>
+<text x="64" y="358" class="num" fill="#7dd3fc" opacity="0">5+<set attributeName="opacity" to="1" begin="2.48s" dur="0.1s" fill="freeze"/></text>
+
+  <text class="lab" x="66" y="382">years in SEO, GA4 and GTM</text>
+  <text x="360" y="358" class="num" fill="#c4b5fd" opacity="1">0.0K<set attributeName="opacity" to="0" begin="0.50s" dur="0.1s" fill="freeze"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">1.1K<set attributeName="opacity" to="1" begin="0.66s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">2.2K<set attributeName="opacity" to="1" begin="0.81s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">3.3K<set attributeName="opacity" to="1" begin="0.97s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">4.3K<set attributeName="opacity" to="1" begin="1.13s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">5.4K<set attributeName="opacity" to="1" begin="1.29s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">6.5K<set attributeName="opacity" to="1" begin="1.44s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">7.6K<set attributeName="opacity" to="1" begin="1.60s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">8.7K<set attributeName="opacity" to="1" begin="1.76s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">9.8K<set attributeName="opacity" to="1" begin="1.91s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">10.9K<set attributeName="opacity" to="1" begin="2.07s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">11.9K<set attributeName="opacity" to="1" begin="2.23s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">13.0K<set attributeName="opacity" to="1" begin="2.39s" dur="0.16s"/></text>
+<text x="360" y="358" class="num" fill="#c4b5fd" opacity="0">15.2K<set attributeName="opacity" to="1" begin="2.54s" dur="0.1s" fill="freeze"/></text>
+
+  <text class="lab" x="362" y="382">clicks in 6 months, Mattie Nottage</text>
+  <text x="720" y="358" class="num" fill="#fcd34d" opacity="1">0K<set attributeName="opacity" to="0" begin="0.50s" dur="0.1s" fill="freeze"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">18K<set attributeName="opacity" to="1" begin="0.66s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">36K<set attributeName="opacity" to="1" begin="0.81s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">53K<set attributeName="opacity" to="1" begin="0.97s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">71K<set attributeName="opacity" to="1" begin="1.13s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">89K<set attributeName="opacity" to="1" begin="1.29s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">107K<set attributeName="opacity" to="1" begin="1.44s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">124K<set attributeName="opacity" to="1" begin="1.60s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">142K<set attributeName="opacity" to="1" begin="1.76s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">160K<set attributeName="opacity" to="1" begin="1.91s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">178K<set attributeName="opacity" to="1" begin="2.07s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">196K<set attributeName="opacity" to="1" begin="2.23s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">213K<set attributeName="opacity" to="1" begin="2.39s" dur="0.16s"/></text>
+<text x="720" y="358" class="num" fill="#fcd34d" opacity="0">249K<set attributeName="opacity" to="1" begin="2.54s" dur="0.1s" fill="freeze"/></text>
+
+  <text class="lab" x="722" y="382">impressions in 28 days, E Movement</text>
+  <text x="1020" y="358" class="num" fill="#86efac" opacity="1">0<set attributeName="opacity" to="0" begin="0.50s" dur="0.1s" fill="freeze"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">1<set attributeName="opacity" to="1" begin="0.66s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">2<set attributeName="opacity" to="1" begin="0.81s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">3<set attributeName="opacity" to="1" begin="0.97s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">5<set attributeName="opacity" to="1" begin="1.13s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">6<set attributeName="opacity" to="1" begin="1.29s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">7<set attributeName="opacity" to="1" begin="1.44s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">8<set attributeName="opacity" to="1" begin="1.60s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">9<set attributeName="opacity" to="1" begin="1.76s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">10<set attributeName="opacity" to="1" begin="1.91s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">11<set attributeName="opacity" to="1" begin="2.07s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">13<set attributeName="opacity" to="1" begin="2.23s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">14<set attributeName="opacity" to="1" begin="2.39s" dur="0.16s"/></text>
+<text x="1020" y="358" class="num" fill="#86efac" opacity="0">16<set attributeName="opacity" to="1" begin="2.54s" dur="0.1s" fill="freeze"/></text>
+
+  <text class="lab" x="1022" y="382">Search Console results</text>
+</g>
 </svg>
